@@ -43,3 +43,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_LCTL, KC_LGUI, KC_LALT,                   RGB_TOG,                                KC_RALT, KC_RCTL, _______, KC_MUTE, KC_VOLD, KC_MPLY
   )
 };
+
+void keyboard_pre_init_user(void) {
+  // BIT-C turn off led
+  setPinOutput(F0);
+  writePinLow(F0);
+}
