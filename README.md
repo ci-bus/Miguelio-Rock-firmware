@@ -1,4 +1,11 @@
-# QMK Firmware to Miguelio Rock
+# Miguelio Rock firmware
 
-1. To compile de firmware copy Miguelio folder intro qmk_firmware/keyboards/
-2. Run command: qmk compile -kb miguelio/rock -km via
+Archivos pre compilados en la raiz del proyecto
+
+## Ejemplo para compilar el firmware compatible con VIA
+
+1. Copia la carpeta miguelio en qmk_firmware/keyboards/
+2. Ejecuta el comando: qmk compile -kb miguelio/rock -km via
+3. Carga el archivo via_rock.json en https://usevia.app/design con `show design tab` activo
+
+Disfruta!
