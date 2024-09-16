@@ -1,0 +1,12 @@
+file_format: "1"
+id: mrock
+name: Miguelio Rock
+type: shield
+url: https://miguelio.com
+requires: [pro_micro]
+features:
+  - keys
+  - rgb
+  - ISO
+  - ANSI
+  - 65%
